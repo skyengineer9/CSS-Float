@@ -1,0 +1,89 @@
+/* CSS Styling */
+
+/* Floats image to the right, adds margin for spacing */
+img.image-1 {
+  width: 200px;
+  float: right;
+  margin-left: 10px;
+}
+
+/* Floats image to the left, adds margin for spacing */
+img.image-2 {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+}
+
+/* No float applied to the image */
+img.image-3 {
+  float: none;
+  width: 200px;
+}
+
+/* Paragraph styling for consistent width */
+p {
+  width: 600px;
+}
+
+/* Float styling for divs aligned side by side */
+div {
+  float: left;
+  padding: 10px;
+}
+
+/* Different background colors for each div */
+div.div-1 {
+  background-color: red;
+  color: black;
+}
+
+div.div-2 {
+  background-color: yellow;
+  color: black;
+}
+
+div.div-3 {
+  background-color: green;
+  color: black;
+}
+
+/* Floating and clear demonstration sections */
+
+/* Floating div1 with padding and border */
+.div01 {
+  float: left;
+  padding: 10px;
+  border: 3px solid #73AD21;
+}
+
+/* Div2 without float, text wraps around div1 */
+.div02 {
+  padding: 10px;
+  border: 3px solid red;
+}
+
+/* Floating div3 with border */
+.div03 {
+  border: 3px solid greenyellow;
+  float: left;
+  padding: 10px;
+}
+
+/* Div4 with clear property to move below div3 */
+.div04 {
+  border: 3px solid red;
+  padding: 10px;
+  clear: left;
+}
+
+/* Clearfix container styling with floated image */
+.div-01 {
+  border: 3px solid greenyellow;
+  padding: 5px;
+}
+
+/* Floated image inside clearfix container */
+.image01 {
+  float: right;
+  width: 170px;
+}
